@@ -258,3 +258,10 @@ footer p {
     padding: 5px 15px;
     border-radius: 10px;
 }
+
+@media print{
+    button{
+        display: none;
+    }
+   
+}
