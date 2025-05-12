@@ -259,9 +259,34 @@ footer p {
     border-radius: 10px;
 }
 
-@media print{
-    button{
+@media print {
+    button {
         display: none;
     }
-   
+
+    .menu-container {
+        display: none;
+    }
+
+    /* Emoji Point and BunBun*/
+    header, #bun {
+        page-break-inside: avoid;
+    }
+
+    /* Funny Cats and Cute Corner */
+    #cats, #cute {
+        page-break-before: always;
+        page-break-inside: avoid;
+    }
+
+    /* Smile and Sleepy Haven */
+    #smile, #sleepy haven {
+        page-break-before: always;
+        page-break-inside: avoid;
+    }
+
+    /* Valorant */
+    #valorant {
+        page-break-before: always;
+    }
 }
