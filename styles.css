@@ -289,4 +289,21 @@ footer p {
     #valorant {
         page-break-before: always;
     }
+
+    .help-header-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        page-break-inside: avoid;
+    }
+    .help-header-row img {
+        height: 2em;
+        width: auto;
+        margin: 0 0.5em;
+    }
+    #heading {
+        font-size: 1.5em;
+        margin: 0 0.5em;
+    }
 }
